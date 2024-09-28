@@ -7,7 +7,7 @@
     ml5 Example
     PoseNet example using p5.js
     === */
-    
+    let hoge;
     let video;
     let poseNet;
     let poses = [];
