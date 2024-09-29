@@ -146,7 +146,6 @@
         recorder.stop();
         startBtn.textContent = 'start recording';
         startBtn.onclick = record;
-        display_7("myChart7");
         start_flag = false;
       };
       //開始した後の処理
