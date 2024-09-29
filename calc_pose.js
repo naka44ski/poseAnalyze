@@ -51,7 +51,7 @@
     //最初に1回だけ呼ばれる関数。表示エリアの作成や全体に共通する設定を書く。
     function setup() {
       // 横幅は画面全体、縦幅はデバイスに応じて適切に調整
-      createCanvas(windowWidth * 0.98, windowWidth * 0.75 * 0.98);
+      createCanvas(windowWidth * 0.55, windowWidth * 0.75 * 0.55);
       video = createCapture(VIDEO);
       video.size(width, height);
       // Create a new poseNet method with a single detection(=信号検出)
@@ -67,7 +67,7 @@
 
     function windowResized() {
       // ウィンドウサイズが変わったときにキャンバスサイズをリサイズする
-      resizeCanvas(windowWidth * 0.98, windowWidth * 0.75 * 0.9);
+      resizeCanvas(windowWidth * 0.55, windowWidth * 0.75 * 0.55);
       video.size(width, height); // videoのサイズもキャンバスに合わせてリサイズ
     }
     
